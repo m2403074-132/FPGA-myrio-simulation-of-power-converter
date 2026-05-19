@@ -20,12 +20,10 @@ En síntesis, el código en LabVIEW FPGA constituye el núcleo de la simulación
 Codificación de Convertidor boost en FPGA
 Para el desarrollo del programa es necesario crear un proyecto como se muestra en la Fig(1) en el programa de labview 2019, en la Fig(2) se muestra la manera conectar el FPGA utilizado, en este caso será la tarjeta Myrio 1900 de National instruments, para la búsqueda de la tarjeta utilizada se da click derecho en el proyecto principal, en “new” y “Targets and devices” y aparecerá una ventana donde al tener la tarjeta conectada aparecerá en la carpeta "myRIO".
 
-Fig 1
 <img width="278" height="370" alt="image" src="https://github.com/user-attachments/assets/f3f592ca-bfc2-4a00-9842-6a718ae9d075" />
 
 Fig 1
 
-Fig 2
 <img width="330" height="373" alt="image" src="https://github.com/user-attachments/assets/d5e0e4a3-f3cc-474c-b2df-df3a2cdfefd8" />
 
 Fig 2
