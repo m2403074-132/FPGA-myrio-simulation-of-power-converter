@@ -30,5 +30,5 @@ Fig 2
  
 Una vez creado el proyecto, se desarrollaron tres módulos independientes correspondientes a los convertidores Boost, Buck y Boost-Buck, tal como se muestra en la Figura 1. Cada uno de estos programas fue implementado para su simulación en el FPGA, permitiendo el análisis del comportamiento de los convertidores. En dichos módulos únicamente es posible modificar parámetros como el voltaje de entrada/salida y el ciclo de trabajo del control. Para ajustar los valores de la simulación, se pueden redefinir las constantes mediante cálculos basados en los elementos del circuito, o bien sustituirlas por indicadores que faciliten un manejo más intuitivo. Esta metodología se aplica de manera uniforme en todos los programas de simulación de los convertidores.
 
-
+En el caso del codigo de
 
