@@ -30,5 +30,8 @@ Fig 2
  
 Una vez creado el proyecto, se desarrollaron tres módulos independientes correspondientes a los convertidores Boost, Buck y Boost-Buck, tal como se muestra en la Figura 1. Cada uno de estos programas fue implementado para su simulación en el FPGA, permitiendo el análisis del comportamiento de los convertidores. En dichos módulos únicamente es posible modificar parámetros como el voltaje de entrada/salida y el ciclo de trabajo del control. Para ajustar los valores de la simulación, se pueden redefinir las constantes mediante cálculos basados en los elementos del circuito, o bien sustituirlas por indicadores que faciliten un manejo más intuitivo. Esta metodología se aplica de manera uniforme en todos los programas de simulación de los convertidores.
 
-En el caso del codigo de
+En este proyecto se emplea el software PSIM en su versión 9.1, el cual fue utilizado para el diseño y simulación de diferentes convertidores de potencia. Entre los programas cargados en la plataforma se encuentran los convertidores Boost, Buck y Boost-Buck, cada uno configurado para analizar su comportamiento bajo distintas condiciones de operación.
+El programa se subió a la plataforma con el objetivo de documentar y mostrar cómo se utiliza en conjunto con otras herramientas de análisis. En particular, se configuró la opción que permite realizar el procesamiento de datos en LabVIEW, lo que facilita la comparación y el estudio de los resultados obtenidos en las simulaciones.
+Dentro de la interfaz, el usuario puede modificar parámetros clave como los valores de los componentes electrónicos (resistencias, inductores, capacitores, etc.) o el ciclo de trabajo (duty cycle) de los convertidores. Estas modificaciones permiten observar cómo varían las respuestas del sistema y obtener resultados diferentes según las condiciones establecidas, lo que convierte al programa en una herramienta flexible para el análisis y la experimentación.
+
 
